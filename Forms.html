@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+    <link type="text/CSS" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Imagens/dinossauro.png">
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="logo">
+            <img id="imagemCabeçario" src="Imagens/dinossauro.png" width="40">
+            <h2 id="Titulo"> <span id="corDev">Dev</span>Junior </h2>
+        </div>
+        <div class="paginas">
+            <a class="link" href="index.html"> INTERNET </a>
+            <a class="link" href="historia.html"> HISTORIA </a>
+            <a class="link" href="navegadores.html"> NAVEGADORES </a>
+        </div>
+    </div>
+
+    <form method="get">
+        <div class="celulaVo">
+            <div class="celulaPai">
+                <legend> INFORMÇÕES PESSOAIS </legend>
+                <div class="celulaFIlho">
+                    <label> Nome: </label>
+                    <input type="text" placeholder="Insira o seu nome" name="nome">
+                </div>
+                <div class="celulaFIlho">
+                    <label> Email: </label>
+                    <input type="email" placeholder="Insira o seu Email" name="email">
+                </div>
+                <div class="celulaFIlho">
+                    <p> Qual seu gênero?</p>
+                    <label>
+                        <input type="radio" name="Masculino">
+                        Masculino
+                        <input type="radio" name="Feminino">
+                        Feminino
+                        <input type="radio" name="Prefiro não dizer">
+                        Prefiro não dizer
+                    </label>
+                </div>
+                <div class="celulaFIlho">
+                    <label> Idade: </label>
+                    <input placeholder="Insira o sua idade" type="number" name="Idade">
+                </div>
+                <div class="celulaFIlho">
+                    <label> Data de nascimento: </label>
+                    <input placeholder="Insira sua data de nascimento" type="date">
+                </div>
+                <div class="celulaFIlho">
+                    <label> País: </label>
+                    <input type="text" placeholder="Insira seu país">
+                </div>
+            </div>
+            <div class="celulaPai">
+                <legend> PESQUISA </legend>
+
+                <div class="celulaFIlho">
+                    <label> Que hora vc mexe na Internet: </label>
+                    <input type="number" placeholder="00:00 até 00:00">
+                </div>
+                <div class="celulaFIlho">
+                    <p> Qual apps vc mais usa: </p>
+                    <label>
+                        <input type="checkbox"> Instagram
+                        <input type="checkbox"> X
+                        <input type="checkbox"> Whatszap
+                        <input type="checkbox"> Tiktok
+                        <input type="checkbox"> Youtube
+                        <input type="checkbox"> Outro
+                    </label>
+                </div>
+                <div class="celulaFIlho">
+                    <label> Para oq vc usa internet: </label>
+                    <input type="text" placeholder="Jogos, Redes Sociais...">
+                </div>
+                <div class="celulaFIlho">
+                    <p> Vc utiliza senhas novas para cada conta? </p>
+                    <label>
+                    <input type="radio"> Sim
+                    <input type="radio"> Não
+                    </label>
+                    <input type="text" placeholder="Exemplos: marcos123">
+                    
+                </div>
+                <div class="celulaFIlho">
+                    <label> Como a internet impacta sua rotina diária? </label>
+                    <input type=" text" placeholder="Digite...">
+                </div>
+                <div class="celulaFIlho">
+                    <p> Se antigamente vc tivesse Internet, mudaria sua vida? </p>
+                    <label>
+                    <input type="radio"> Sim
+                    <input type="radio"> Não
+                    </label>
+                    <input type="text" placeholder="Justifique">
+                </div>
+                <div class="celulaFIlho">
+                    <p> De uma nota para o site: </p>
+                    <label>
+                    <input type="radio"> 1
+                    <input type="radio"> 2
+                    <input type="radio"> 3
+                    <input type="radio"> 4
+                    <input type="radio"> 5
+                    <input type="radio"> 6
+                    <input type="radio"> 7
+                    <input type="radio"> 8
+                    <input type="radio"> 9
+                    <input type="radio"> 10
+                    </label>
+                </div>
+            </div>
+            <div>
+                <input id="submit" type="submit" value="ENVIAR FORMULÁRIO">
+            </div>
+        </div>
+
+    </form>
+
+    <div class="footer">
+        <div id="imgRodapé">
+            <img src="Imagens/WhatsApp Image 2026-08-28 at 14.35.19.jpeg" id="Skomra">
+            <h4> João Vitor Skomra</h4>
+        </div>
+        <div id="textoRodapé">
+            <p> &copy; 2026 - Desenvolvido na aula de Web.</p>
+        </div>
+    </div>
+</body>
+
+</html>

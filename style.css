@@ -1,0 +1,732 @@
+/* 
+# para ID 
+. para CLASS 
+*/
+
+body {
+    margin: 3px;
+    padding: 1px;
+    background-color: #f7f7f7;
+    font-family: Georgia, 'Arial';
+    color: rgb(12, 10, 32);
+}
+
+#header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(10, 8, 19);
+    border-bottom: 2px solid #000000;
+    padding: 4px;
+}
+
+#imagemCabeçario {
+    filter: drop-shadow(0px 0px 6px rgb(255, 255, 255));
+    margin: 10px;
+}
+
+.link {
+    color: rgb(163, 159, 184);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#selecionado {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    text-shadow: 1px 1px 5px #626283;
+    color: #bed7fd;
+}
+
+#selecionado:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    text-shadow: 1px 1px 5px #ffffff;
+    color: rgba(255, 255, 255, 0.836);
+    transition: 0.3s;
+}
+
+.link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    text-shadow: 1px 1px 5px #ffffff;
+    color: rgba(255, 255, 255, 0.836);
+    transition: 0.3s;
+}
+
+#Titulo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#paginas {
+    text-align: center;
+    margin: 10px;
+}
+
+#destaque {
+    background-color: #dad8d86c;
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 120px;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#destaque2 {
+    width: 1000px;
+}
+
+#dinossauro {
+    width: 750px;
+    text-align: center;
+    mix-blend-mode: multiply;
+    filter: drop-shadow(0px 0px 6px rgb(218, 218, 218));
+}
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.959);
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    display: flex;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(192, 191, 191);
+    text-shadow: 1px 1px 9px rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100%;
+    transition: 0.5s;
+}
+
+#formulario:hover {
+    background-color: #dddddd;
+    border-color: #464646;
+    box-shadow: 0px 0px 5px black;
+}
+
+#corFundoDestaque {
+    background-color: white;
+    padding: 50px;
+    margin-top: 70px;
+}
+
+#destaqueMenor {
+    padding-right: 30%;
+}
+
+.linkForm {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.linkForm:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.estruturaCelulas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.celulas {
+    background-color: #ebeaeab4;
+    border: 2px solid rgb(192, 191, 191);
+    border-radius: 15px;
+    padding: 30px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+.celulas:hover {
+    font-size: 17px;
+    box-shadow: 0px 0px 6px white;
+}
+
+.introducao {
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    background-image: url(Imagens/Imagem-introdução.avif);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, #e6e6e6c2 3%);
+    mask-image: linear-gradient(to top, transparent 0%, black 3%);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border: 2px solid rgb(4, 3, 29);
+}
+
+.introducao2 {
+    padding: 60px 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}
+
+.estruturaCelulas2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.celulas2 {
+    background-color: #f0efefb4;
+    border: 3px solid rgb(168, 168, 168);
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+#xis {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#imgIXW {
+    border: 2px rgb(107, 106, 106);
+    border-radius: 10%;
+    box-shadow: 0px 0px 6px rgb(77, 76, 76);
+    mix-blend-mode: multiply;
+}
+
+.imagemFundo {
+    background-image: none;
+}
+
+#tittleInternet {
+    color: #f7f7f7;
+    text-shadow: 1px 1px 20px white;
+    font-size: 50px;
+    background-color: #02063b1a;
+}
+
+#destaqueJoão {
+    font-size: 60px;
+    font-family: 'Copperplate';
+    font-weight: bold;
+}
+
+#corDev {
+    color: #bed7fd;
+    text-shadow: 1px 1px 2px rgb(172, 165, 165);
+}
+
+.introducao3 {
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 70px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imagemRedes {
+    width: 500px;
+    height: auto;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.celula3 {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #ececec;
+    border-right: 3px solid rgb(197, 197, 197);
+    padding: 20px;
+    width: 800px;
+    height: 310px;
+    font-size: 14px;
+}
+
+#logopequena {
+    width: 30px;
+    height: 30px;
+    border-radius: 45%;
+    text-align: center;
+    padding-right: 3px;
+}
+
+#centralizarVertical {
+    display: flex;
+    align-items: center;
+}
+
+.introducao4 {
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.celulas4 {
+    background-color: #ececec;
+    border: 2px solid rgb(231, 231, 231);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 40px;
+    width: 330px;
+    height: 330px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    background-color: rgb(10, 8, 19);
+    border-bottom: 2px solid #000000;
+    padding: 4px;
+    width: auto;
+    height: 60px;
+    color: #fdfdfd;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#imgRodapé {
+    display: flex;
+    justify-content: left;
+}
+
+#textoRodapé {
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin-right: 20px;
+}
+
+#Skomra {
+    width: 36px;
+    border-radius: 50%;
+    padding: 14px;
+    transition: 0.5s;
+}
+
+#Skomra:hover {
+    filter: drop-shadow(0px 0px 5px rgb(252, 252, 252));
+}
+
+.introducao5 {
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 70px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.celula5 {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #ececec;
+    box-shadow: 0px 0px 3px rgb(122, 122, 122);
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+#imagemEvolucao {
+    width: 500px;
+    height: 260px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(129, 129, 129);
+}
+
+.historia {
+    padding: 40px 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #fdfcfc;
+    background-image: url(Imagens/historia1.png);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, #e6e6e6 3%);
+    mask-image: linear-gradient(to top, transparent 0%, rgb(10, 10, 10) 3%);
+    border: 2px solid rgb(4, 3, 29);
+    text-shadow: 2px 2px 2px black;
+}
+
+#tituloHistoria {
+    font-size: 34px;
+    text-shadow: 2px 2px 2px rgba(0, 3, 43, 0.747);
+}
+
+.celulaHistoria {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.historia2 {
+    text-align: left;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 70px;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.celulaHistoria2 {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    width: 800px;
+    height: auto;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.celulaHistoriaMaior {
+    margin: 10px;
+    padding: 9px;
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(235, 235, 235);
+    border-top-right-radius: 40px;
+}
+
+.celulaHistoriaMenor {
+    margin: 10px;
+    padding: 9px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(235, 235, 235);
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    height: 30px;
+    transition: 0.6s;
+}
+
+.celulaHistoriaMenor:hover {
+    height: 100px;
+}
+
+#imagemHistoria {
+    width: 700px;
+    height: 500px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#imagemHistoria2 {
+    padding: 30px;
+    width: 300px;
+    height: 235px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: 0.5s;
+}
+
+#imagemHistoria2:hover {
+    filter: drop-shadow(0px 0px 4px rgba(7, 10, 230, 0.541));
+}
+
+.historia3 {
+    font-size: 15px;
+    background-color: white;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.celulaHistoriaMaior2 {
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 40px;
+    box-shadow: 0px 0px 15px rgb(155, 155, 155);
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.celulaHistoria2 {
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.tituloCelulaHistoria2 {
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(128, 127, 127);
+}
+
+.celulaVo {
+    background-image: url(Imagens/Imagem-introdução.avif);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    text-align: left;
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.celulaPai {
+    margin-left: 30px;
+    background-color: rgba(226, 254, 255, 0.678);
+    padding: 30px;
+    font-size: 20px;
+    margin: 40px;
+    width: 500px;
+    height: auto;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+legend {
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 1, 56, 0.61);
+    color: #0260eef3;
+}
+
+.celulaFIlho {
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #f1f0f0e7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#submit {
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #ade4fab7;
+    font-size: 40px;
+    padding:15px 30px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: #0443f0b7;
+    color: white;
+    text-shadow: 1px 1px 5px white;
+    border-color: #001aff;
+}
+
+input {
+    background-color: #c4dcfcea;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #6998fc;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+input:hover {
+    box-shadow: 0px 0px 10px rgb(127, 182, 253);
+}
+
+input:focus {
+    outline: 2px solid #007BFF; 
+}
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 2px #ffffff;
+}
+
+p {
+    margin-bottom: 7px;
+}
+
+#imagemTabela {
+    width: 140px;
+}
+
+#browsersTituloTabela {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+table {
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+th {
+    border: 6px solid #e6e8ff88;
+    border-radius: 10px;
+    background-color: #a8cbff;
+    font-style: italic;
+    padding: 10px;
+}
+
+td {
+    border: 6px solid #c5cafd88;
+    border-radius: 30px;
+    background-color: #86b4fa;
+    font-style: italic;
+    padding: 15px;
+    border-bottom: 2px solid #1582ff;
+    transition: 1s;
+}
+
+td:hover {
+    background-color: rgb(21, 120, 233);
+}
+
+#tdBrowsers {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#imagemBrowser {
+    width: 1000px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+    left: 50%;  
+    /* Não estava conseguindo centralizar usei esses 2 comandos*/
+    transform: translateX(-50%);
+}
+
+.navegadores1 {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.celulaNavegadores {
+    padding: 15px;
+    background-color: #dbdbdb;
+    border-radius: 30px;
+    margin: 20px;
+    margin-bottom: 40px;
+    width: 1300px;
+    align-items: center;
+    margin: 20px auto 40px auto;
+}
+
+#legendNavegadores {
+    color: #272729;
+    border-radius: 20px;
+    border-color: #bebcbc;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#textNavegadores {
+    text-align: justify;
+}
+
+#tituloNavegadores {
+    font-size: 40px;
+    color: #131313;
+    text-shadow: 2px 2px 1px rgb(102, 102, 102);
+}
+
+.estruturaCelulasNavegadores2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.celulaNavegadores2 {
+    background-color: #ebf3fab7;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    height: 100px;
+    box-shadow: 5px 5px 2px rgba(59, 59, 59, 0.397);
+    overflow: hidden;
+}
+
+.celulaNavegadores2:hover {
+    height: 600px;
+    transition: 5s;
+}
+
+.navegadores2 {
+    padding: 40px 10px;
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    width: auto;
+}
